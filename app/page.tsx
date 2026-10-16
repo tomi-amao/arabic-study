@@ -1,13 +1,16 @@
-import Link from "next/link";
-import { verbs, common } from "@/lib/data";
+import { deck, path, units } from "@/lib/data";
+import HomeView, { type UnitCard } from "./components/HomeView";
+
 export default function Home() {
-  return (<>
-    <h1>Arabic Study</h1>
-    <p style={{ color: "var(--muted)" }}>Gulf / Saudi forms, each with the Fusha (MSA) equivalent.</p>
-    <h2>Verbs</h2>
-    <div className="grid">{verbs.map(v => (<Link key={v.slug} className="card" href={`/verbs/${v.slug}`}>
-      <div className="ar">{v.ar}</div><div>{v.en}</div><div className="tr">{v.kind}</div></Link>))}</div>
-    <h2>Common verbs</h2>
-    <p style={{ color: "var(--muted)" }}>{common.map(c => c.ar).join(" · ")} — see Flashcards.</p>
-  </>);
+  const data: UnitCard[] = units.map((u) => ({
+    id: u.id,
+    title: u.title,
+    ar: u.ar,
+    blurb: u.blurb,
+    tone: u.tone,
+    stops: path.filter((p) => p.unit.id === u.id).map(({ kind, title, ar, href }) => ({ kind, title, ar, href })),
+    cards: deck.filter((c) => c.unit === u.id).map((c) => c.id),
+  }));
+  const titles = Object.fromEntries(path.map((p) => [p.href, p.title]));
+  return <HomeView units={data} titles={titles} total={deck.length} />;
 }

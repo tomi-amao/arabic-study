@@ -1,0 +1,1557 @@
+{
+ "pronouns": [
+  {
+   "ar": "أنا",
+   "en": "I"
+  },
+  {
+   "ar": "إنت",
+   "en": "you (m.)"
+  },
+  {
+   "ar": "إنتي",
+   "en": "you (f.)"
+  },
+  {
+   "ar": "هو",
+   "en": "he"
+  },
+  {
+   "ar": "هي",
+   "en": "she"
+  },
+  {
+   "ar": "إحنا",
+   "en": "we"
+  },
+  {
+   "ar": "إنتوا",
+   "en": "you (pl.)"
+  },
+  {
+   "ar": "هم",
+   "en": "they"
+  }
+ ],
+ "verbs": [
+  {
+   "slug": "go",
+   "ar": "راح / يروح",
+   "en": "to go",
+   "kind": "Hollow",
+   "past": [
+    {
+     "gulf": "رُحْت",
+     "tr": "ruḥt",
+     "fusha": "ذَهَبْتُ"
+    },
+    {
+     "gulf": "رُحْت",
+     "tr": "ruḥt",
+     "fusha": "ذَهَبْتَ"
+    },
+    {
+     "gulf": "رُحْتي",
+     "tr": "ruḥti",
+     "fusha": "ذَهَبْتِ"
+    },
+    {
+     "gulf": "راح",
+     "tr": "rāḥ",
+     "fusha": "ذَهَبَ"
+    },
+    {
+     "gulf": "راحَت",
+     "tr": "rāḥat",
+     "fusha": "ذَهَبَتْ"
+    },
+    {
+     "gulf": "رُحْنا",
+     "tr": "ruḥna",
+     "fusha": "ذَهَبْنا"
+    },
+    {
+     "gulf": "رُحْتوا",
+     "tr": "ruḥtu",
+     "fusha": "ذَهَبْتُمْ"
+    },
+    {
+     "gulf": "راحوا",
+     "tr": "rāḥu",
+     "fusha": "ذَهَبوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَروح",
+     "tr": "arūḥ",
+     "fusha": "أَذْهَبُ"
+    },
+    {
+     "gulf": "تَروح",
+     "tr": "tarūḥ",
+     "fusha": "تَذْهَبُ"
+    },
+    {
+     "gulf": "تَروحين",
+     "tr": "tarūḥīn",
+     "fusha": "تَذْهَبينَ"
+    },
+    {
+     "gulf": "يَروح",
+     "tr": "yarūḥ",
+     "fusha": "يَذْهَبُ"
+    },
+    {
+     "gulf": "تَروح",
+     "tr": "tarūḥ",
+     "fusha": "تَذْهَبُ"
+    },
+    {
+     "gulf": "نَروح",
+     "tr": "narūḥ",
+     "fusha": "نَذْهَبُ"
+    },
+    {
+     "gulf": "تَروحون",
+     "tr": "tarūḥūn",
+     "fusha": "تَذْهَبونَ"
+    },
+    {
+     "gulf": "يَروحون",
+     "tr": "yarūḥūn",
+     "fusha": "يَذْهَبونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "روح",
+     "tr": "rūḥ",
+     "fusha": "اِذْهَبْ"
+    },
+    {
+     "gulf": "روحي",
+     "tr": "rūḥi",
+     "fusha": "اِذْهَبي"
+    },
+    {
+     "gulf": "روحوا",
+     "tr": "rūḥu",
+     "fusha": "اِذْهَبوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "أَنا راح أَروح السّوق بُكْرَة",
+     "tr": "ana raḥ arūḥ es-sūq bukra",
+     "fusha": "سَأَذْهَبُ إِلى السّوقِ غَداً",
+     "en": "I will go to the market tomorrow."
+    },
+    {
+     "gulf": "وِين رُحْتي أَمْس؟",
+     "tr": "wayn ruḥti ams?",
+     "fusha": "أَيْنَ ذَهَبْتِ أَمْسِ؟",
+     "en": "Where did you (f.) go yesterday?"
+    },
+    {
+     "gulf": "روحوا البَيْت!",
+     "tr": "rūḥu el-bayt!",
+     "fusha": "اِذْهَبوا إِلى البَيْتِ!",
+     "en": "Go home! (to several people)"
+    }
+   ],
+   "notes": [
+    "Your teacher also uses بـ forms with a time word: بروح / بتروح بكرة (“I’m / you’re going tomorrow”). راح + present is the safest, most widely understood way to say “will”.",
+    "Gulf usually drops إلى after راح (راح السوق); Fusha keeps it (ذهب إلى السوق).",
+    "Participle: رايح (rāyiḥ) means “going / on the way”. أنا رايح السوق = I’m heading to the market.",
+    "Command: روح (m.) and روحي (f.) differ, because راح is hollow, not defective."
+   ],
+   "core": true
+  },
+  {
+   "slug": "see",
+   "ar": "شاف / يشوف",
+   "en": "to see",
+   "kind": "Hollow",
+   "past": [
+    {
+     "gulf": "شِفْت",
+     "tr": "shift",
+     "fusha": "رَأَيْتُ"
+    },
+    {
+     "gulf": "شِفْت",
+     "tr": "shift",
+     "fusha": "رَأَيْتَ"
+    },
+    {
+     "gulf": "شِفْتي",
+     "tr": "shifti",
+     "fusha": "رَأَيْتِ"
+    },
+    {
+     "gulf": "شاف",
+     "tr": "shāf",
+     "fusha": "رَأى"
+    },
+    {
+     "gulf": "شافَت",
+     "tr": "shāfat",
+     "fusha": "رَأَتْ"
+    },
+    {
+     "gulf": "شِفْنا",
+     "tr": "shifna",
+     "fusha": "رَأَيْنا"
+    },
+    {
+     "gulf": "شِفْتوا",
+     "tr": "shiftu",
+     "fusha": "رَأَيْتُمْ"
+    },
+    {
+     "gulf": "شافوا",
+     "tr": "shāfu",
+     "fusha": "رَأَوْا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَشوف",
+     "tr": "ashūf",
+     "fusha": "أَرى"
+    },
+    {
+     "gulf": "تِشوف",
+     "tr": "tshūf",
+     "fusha": "تَرى"
+    },
+    {
+     "gulf": "تِشوفين",
+     "tr": "tshūfīn",
+     "fusha": "تَرَيْنَ"
+    },
+    {
+     "gulf": "يِشوف",
+     "tr": "yshūf",
+     "fusha": "يَرى"
+    },
+    {
+     "gulf": "تِشوف",
+     "tr": "tshūf",
+     "fusha": "تَرى"
+    },
+    {
+     "gulf": "نِشوف",
+     "tr": "nshūf",
+     "fusha": "نَرى"
+    },
+    {
+     "gulf": "تِشوفون",
+     "tr": "tshūfūn",
+     "fusha": "تَرَوْنَ"
+    },
+    {
+     "gulf": "يِشوفون",
+     "tr": "yshūfūn",
+     "fusha": "يَرَوْنَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "شوف",
+     "tr": "shūf",
+     "fusha": "اُنْظُرْ / شاهِدْ"
+    },
+    {
+     "gulf": "شوفي",
+     "tr": "shūfi",
+     "fusha": "اُنْظُري / شاهِدي"
+    },
+    {
+     "gulf": "شوفوا",
+     "tr": "shūfu",
+     "fusha": "اُنْظُروا / شاهِدوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "شِفْت أَخوك أَمْس في السّوق",
+     "tr": "shift akhūk ams fi s-sūq",
+     "fusha": "رَأَيْتُ أَخاكَ أَمْسِ في السّوقِ",
+     "en": "I saw your brother yesterday at the market."
+    },
+    {
+     "gulf": "راح أَشوفِك بُكْرَة",
+     "tr": "raḥ ashūfik bukra",
+     "fusha": "سَأَراكِ غَداً",
+     "en": "I will see you (f.) tomorrow."
+    },
+    {
+     "gulf": "شوفوا هَذا!",
+     "tr": "shūfu hādha!",
+     "fusha": "اُنْظُروا إِلى هَذا!",
+     "en": "Look at this! (to several people)"
+    }
+   ],
+   "notes": [
+    "With بـ (your teacher’s form, with a time word): بشوف، بتشوف، بيشوف.",
+    "شوف also means “look!” / “listen!” in conversation. Fusha has two choices: اُنْظُر (look at) or شاهِد (watch).",
+    "Object endings: شِفْته / شِفْتها = I saw him / her (Fusha: رأيته / رأيتها).",
+    "شايف (shāyif, “seeing / have seen”) is common: شايفك = I see you."
+   ],
+   "core": true
+  },
+  {
+   "slug": "make",
+   "ar": "سوّى / يسوّي",
+   "en": "to do / make",
+   "kind": "Defective",
+   "past": [
+    {
+     "gulf": "سَوَّيْت",
+     "tr": "sawwayt",
+     "fusha": "صَنَعْتُ"
+    },
+    {
+     "gulf": "سَوَّيْت",
+     "tr": "sawwayt",
+     "fusha": "صَنَعْتَ"
+    },
+    {
+     "gulf": "سَوَّيْتي",
+     "tr": "sawwayti",
+     "fusha": "صَنَعْتِ"
+    },
+    {
+     "gulf": "سَوَّى",
+     "tr": "sawwā",
+     "fusha": "صَنَعَ"
+    },
+    {
+     "gulf": "سَوَّت",
+     "tr": "sawwat",
+     "fusha": "صَنَعَتْ"
+    },
+    {
+     "gulf": "سَوَّيْنا",
+     "tr": "sawwayna",
+     "fusha": "صَنَعْنا"
+    },
+    {
+     "gulf": "سَوَّيْتوا",
+     "tr": "sawwaytu",
+     "fusha": "صَنَعْتُمْ"
+    },
+    {
+     "gulf": "سَوَّوا",
+     "tr": "sawwaw",
+     "fusha": "صَنَعوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَسَوّي",
+     "tr": "asawwi",
+     "fusha": "أَصْنَعُ"
+    },
+    {
+     "gulf": "تِسَوّي",
+     "tr": "tsawwi",
+     "fusha": "تَصْنَعُ"
+    },
+    {
+     "gulf": "تِسَوّين",
+     "tr": "tsawwīn",
+     "fusha": "تَصْنَعينَ"
+    },
+    {
+     "gulf": "يِسَوّي",
+     "tr": "ysawwi",
+     "fusha": "يَصْنَعُ"
+    },
+    {
+     "gulf": "تِسَوّي",
+     "tr": "tsawwi",
+     "fusha": "تَصْنَعُ"
+    },
+    {
+     "gulf": "نِسَوّي",
+     "tr": "nsawwi",
+     "fusha": "نَصْنَعُ"
+    },
+    {
+     "gulf": "تِسَوّون",
+     "tr": "tsawwūn",
+     "fusha": "تَصْنَعونَ"
+    },
+    {
+     "gulf": "يِسَوّون",
+     "tr": "ysawwūn",
+     "fusha": "يَصْنَعونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "سَوّي",
+     "tr": "sawwi",
+     "fusha": "اِصْنَعْ"
+    },
+    {
+     "gulf": "سَوّي",
+     "tr": "sawwi",
+     "fusha": "اِصْنَعي"
+    },
+    {
+     "gulf": "سَوّوا",
+     "tr": "sawwu",
+     "fusha": "اِصْنَعوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "أَنا راح أَسَوّي العَشا بَعْد بُكْرَة",
+     "tr": "ana raḥ asawwi el-ʿasha baʿd bukra",
+     "fusha": "سَأَصْنَعُ العَشاءَ بَعْدَ غَدٍ",
+     "en": "I will make dinner the day after tomorrow."
+    },
+    {
+     "gulf": "هُو راح يِسَوّي القَهْوَة بُكْرَة الصَّباح",
+     "tr": "huwa raḥ ysawwi el-qahwa bukra eṣ-ṣabāḥ",
+     "fusha": "سَيَصْنَعُ القَهْوَةَ غَداً صَباحاً",
+     "en": "He will make coffee tomorrow morning."
+    },
+    {
+     "gulf": "هِيَ راح تِسَوّي الفُطور الأُسْبوع الجاي",
+     "tr": "hiya raḥ tsawwi el-fuṭūr el-usbūʿ el-jāy",
+     "fusha": "سَتَصْنَعُ الإفْطارَ الأُسْبوعَ القادِمَ",
+     "en": "She will make breakfast next week."
+    }
+   ],
+   "notes": [
+    "سوّى is the everyday Gulf verb for both “make” and “do”. Fusha has no single equivalent: صَنَعَ (make, produce) or فَعَلَ (do, perform). The tables use صنع.",
+    "Your earlier sheet had يسوّوا; the Gulf plural is يسوّون and the feminine is تسوّين.",
+    "Same command for m. and f.: verbs ending in ي have one singular command, سَوّي (like اشتري). Fusha separates them: اِصْنَع / اِصْنَعي."
+   ],
+   "core": true
+  },
+  {
+   "slug": "read",
+   "ar": "قرا / يقرا",
+   "en": "to read",
+   "kind": "Defective",
+   "past": [
+    {
+     "gulf": "قَرَيْت",
+     "tr": "qarēt",
+     "fusha": "قَرَأْتُ"
+    },
+    {
+     "gulf": "قَرَيْت",
+     "tr": "qarēt",
+     "fusha": "قَرَأْتَ"
+    },
+    {
+     "gulf": "قَرَيْتي",
+     "tr": "qarēti",
+     "fusha": "قَرَأْتِ"
+    },
+    {
+     "gulf": "قَرا",
+     "tr": "qarā",
+     "fusha": "قَرَأَ"
+    },
+    {
+     "gulf": "قَرَت",
+     "tr": "qarat",
+     "fusha": "قَرَأَتْ"
+    },
+    {
+     "gulf": "قَرَيْنا",
+     "tr": "qarēna",
+     "fusha": "قَرَأْنا"
+    },
+    {
+     "gulf": "قَرَيْتوا",
+     "tr": "qarētu",
+     "fusha": "قَرَأْتُمْ"
+    },
+    {
+     "gulf": "قَرَوا",
+     "tr": "qarau",
+     "fusha": "قَرَؤوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَقرا",
+     "tr": "aqra",
+     "fusha": "أَقْرَأُ"
+    },
+    {
+     "gulf": "تِقرا",
+     "tr": "tiqra",
+     "fusha": "تَقْرَأُ"
+    },
+    {
+     "gulf": "تِقرين",
+     "tr": "tiqrīn",
+     "fusha": "تَقْرَئينَ"
+    },
+    {
+     "gulf": "يِقرا",
+     "tr": "yiqra",
+     "fusha": "يَقْرَأُ"
+    },
+    {
+     "gulf": "تِقرا",
+     "tr": "tiqra",
+     "fusha": "تَقْرَأُ"
+    },
+    {
+     "gulf": "نِقرا",
+     "tr": "niqra",
+     "fusha": "نَقْرَأُ"
+    },
+    {
+     "gulf": "تِقرون",
+     "tr": "tiqrūn",
+     "fusha": "تَقْرَؤونَ"
+    },
+    {
+     "gulf": "يِقرون",
+     "tr": "yiqrūn",
+     "fusha": "يَقْرَؤونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "اِقرا",
+     "tr": "iqra",
+     "fusha": "اِقْرَأْ"
+    },
+    {
+     "gulf": "اِقري",
+     "tr": "iqri",
+     "fusha": "اِقْرَئي"
+    },
+    {
+     "gulf": "اِقروا",
+     "tr": "iqru",
+     "fusha": "اِقْرَؤوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "قَرَيْت الكِتاب أَمْس",
+     "tr": "qarēt el-kitāb ams",
+     "fusha": "قَرَأْتُ الكِتابَ أَمْسِ",
+     "en": "I read the book yesterday."
+    },
+    {
+     "gulf": "راح أَقرا الجَريدَة بُكْرَة",
+     "tr": "raḥ aqra el-jarīda bukra",
+     "fusha": "سَأَقْرَأُ الصَّحيفَةَ غَداً",
+     "en": "I will read the newspaper tomorrow."
+    },
+    {
+     "gulf": "اِقري هَذا!",
+     "tr": "iqri hādha!",
+     "fusha": "اِقْرَئي هَذا!",
+     "en": "Read this! (to a woman)"
+    }
+   ],
+   "notes": [
+    "Gulf قرا is the Fusha قرأ with the final hamza softened to a long ا, so in speech it behaves like a verb ending in a weak letter.",
+    "Gulf past: قرا + ending turns into قريت (like سوّيت). Fusha keeps the hamza: قرأتُ.",
+    "Verbs ending in ا add ي for the feminine command: اقرا → اقري (different from سوّي, where both genders match).",
+    "Gulf الجريدة ↔ Fusha الصحيفة (newspaper); both are understood. Fusha قرأ is the verb behind القرآن (“the recitation”)."
+   ],
+   "core": true
+  },
+  {
+   "slug": "buy",
+   "ar": "اِشْتَرى / يِشْتِري",
+   "en": "to buy",
+   "kind": "Defective",
+   "core": true,
+   "past": [
+    {
+     "gulf": "شَرَيْت",
+     "tr": "sharayt",
+     "fusha": "اِشْتَرَيْتُ"
+    },
+    {
+     "gulf": "شَرَيْت",
+     "tr": "sharayt",
+     "fusha": "اِشْتَرَيْتَ"
+    },
+    {
+     "gulf": "شَرَيْتي",
+     "tr": "sharayti",
+     "fusha": "اِشْتَرَيْتِ"
+    },
+    {
+     "gulf": "شَرا",
+     "tr": "sharā",
+     "fusha": "اِشْتَرى"
+    },
+    {
+     "gulf": "شَرَت",
+     "tr": "sharat",
+     "fusha": "اِشْتَرَتْ"
+    },
+    {
+     "gulf": "شَرَيْنا",
+     "tr": "sharaynā",
+     "fusha": "اِشْتَرَيْنا"
+    },
+    {
+     "gulf": "شَرَيْتوا",
+     "tr": "sharaytu",
+     "fusha": "اِشْتَرَيْتُمْ"
+    },
+    {
+     "gulf": "شَرَوا",
+     "tr": "sharaw",
+     "fusha": "اِشْتَرَوْا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَشْتِري",
+     "tr": "ashtiri",
+     "fusha": "أَشْتَري"
+    },
+    {
+     "gulf": "تِشْتِري",
+     "tr": "tishtiri",
+     "fusha": "تَشْتَري"
+    },
+    {
+     "gulf": "تِشْتِرين",
+     "tr": "tishtirīn",
+     "fusha": "تَشْتَرينَ"
+    },
+    {
+     "gulf": "يِشْتِري",
+     "tr": "yishtiri",
+     "fusha": "يَشْتَري"
+    },
+    {
+     "gulf": "تِشْتِري",
+     "tr": "tishtiri",
+     "fusha": "تَشْتَري"
+    },
+    {
+     "gulf": "نِشْتِري",
+     "tr": "nishtiri",
+     "fusha": "نَشْتَري"
+    },
+    {
+     "gulf": "تِشْتِرون",
+     "tr": "tishtirūn",
+     "fusha": "تَشْتَرونَ"
+    },
+    {
+     "gulf": "يِشْتِرون",
+     "tr": "yishtirūn",
+     "fusha": "يَشْتَرونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "اِشْتِري",
+     "tr": "ishtiri",
+     "fusha": "اِشْتَرِ"
+    },
+    {
+     "gulf": "اِشْتِري",
+     "tr": "ishtiri",
+     "fusha": "اِشْتَري"
+    },
+    {
+     "gulf": "اِشْتِروا",
+     "tr": "ishtirū",
+     "fusha": "اِشْتَروا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "أَنا شَرَيْت كِتاب",
+     "tr": "ana sharayt kitāb",
+     "en": "I bought a book."
+    },
+    {
+     "gulf": "هُو شَرا قَلَم",
+     "tr": "huwa sharā qalam",
+     "en": "He bought a pen."
+    },
+    {
+     "gulf": "هِيَ شَرَت مَلابِس",
+     "tr": "hiya sharat malābis",
+     "en": "She bought clothes."
+    },
+    {
+     "gulf": "أَنا قاعِد أَشْتِري أَكِل",
+     "tr": "ana qāʿid ashtiri akl",
+     "en": "I’m buying food (male speaker)."
+    },
+    {
+     "gulf": "هُو يِشْتِري كُرْسي",
+     "tr": "huwa yishtiri kursi",
+     "en": "He buys a chair."
+    },
+    {
+     "gulf": "هِيَ تِشْتِري جَزْمَة",
+     "tr": "hiya tishtiri jazma",
+     "en": "She buys shoes."
+    },
+    {
+     "gulf": "هُم يِشْتِرون مَلابِس",
+     "tr": "hum yishtirūn malābis",
+     "en": "They buy clothes."
+    },
+    {
+     "gulf": "أَنا راح أَشْتِري شَنْطَة",
+     "tr": "ana raḥ ashtiri shanṭa",
+     "en": "I will buy a bag."
+    },
+    {
+     "gulf": "هُو بِيِشْتِري هَدِيَّة",
+     "tr": "huwa biyishtiri hadiyya",
+     "en": "He will buy a gift."
+    },
+    {
+     "gulf": "هِيَ راح تِشْتِري صَحْن",
+     "tr": "hiya raḥ tishtiri ṣaḥn",
+     "en": "She will buy a plate."
+    },
+    {
+     "gulf": "إِنْتي تِشْتِرين هَدِيَّة؟",
+     "tr": "inti tishtirīn hadiyya?",
+     "en": "Do you (f.) buy a gift?"
+    }
+   ],
+   "notes": [
+    "Updated notes: the present now has the fuller endings ـين (you f.) and ـون (you pl., they): تشترين، تشترون، يشترون. Earlier notes had the shorter تشتري / تشترو. The full forms are the common Gulf / Saudi ones.",
+    "Spelling: شروا and شريتوا end in a silent alif, which is the formal convention. Both spellings occur and sound the same. Likewise شرا and شرى are the same word.",
+    "بيشتري (huwa biyishtiri hadiyya) is your teacher’s second way to talk about the future; with a time word it reads “he will buy”. راح is the clearer marker.",
+    "Command: m. and f. are the same word (اشتري) because the verb ends in ي. In the plural the final ن drops: تشترون → اشتروا.",
+    "The short past شرى and the longer present يشتري come from the same root ش-ر-ي. اشترى is also heard for the past in many dialects. The Fusha column was added for reference; it was not on your sheets."
+   ]
+  },
+  {
+   "slug": "write",
+   "ar": "كتب / يكتب",
+   "en": "to write",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "كَتَبْت",
+     "tr": "",
+     "fusha": "كَتَبْتُ"
+    },
+    {
+     "gulf": "كَتَبْت",
+     "tr": "",
+     "fusha": "كَتَبْتَ"
+    },
+    {
+     "gulf": "كَتَبْتي",
+     "tr": "",
+     "fusha": "كَتَبْتِ"
+    },
+    {
+     "gulf": "كَتَب",
+     "tr": "",
+     "fusha": "كَتَبَ"
+    },
+    {
+     "gulf": "كَتَبَت",
+     "tr": "",
+     "fusha": "كَتَبَتْ"
+    },
+    {
+     "gulf": "كَتَبْنا",
+     "tr": "",
+     "fusha": "كَتَبْنا"
+    },
+    {
+     "gulf": "كَتَبْتوا",
+     "tr": "",
+     "fusha": "كَتَبْتُمْ"
+    },
+    {
+     "gulf": "كَتَبوا",
+     "tr": "",
+     "fusha": "كَتَبوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَكْتُب",
+     "tr": "",
+     "fusha": "أَكْتُبُ"
+    },
+    {
+     "gulf": "تِكْتُب",
+     "tr": "",
+     "fusha": "تَكْتُبُ"
+    },
+    {
+     "gulf": "تِكْتُبين",
+     "tr": "",
+     "fusha": "تَكْتُبينَ"
+    },
+    {
+     "gulf": "يِكْتُب",
+     "tr": "",
+     "fusha": "يَكْتُبُ"
+    },
+    {
+     "gulf": "تِكْتُب",
+     "tr": "",
+     "fusha": "تَكْتُبُ"
+    },
+    {
+     "gulf": "نِكْتُب",
+     "tr": "",
+     "fusha": "نَكْتُبُ"
+    },
+    {
+     "gulf": "تِكْتُبون",
+     "tr": "",
+     "fusha": "تَكْتُبونَ"
+    },
+    {
+     "gulf": "يِكْتُبون",
+     "tr": "",
+     "fusha": "يَكْتُبونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "اُكْتُبْ",
+     "tr": "",
+     "fusha": "اُكْتُبْ"
+    },
+    {
+     "gulf": "اُكْتُبي",
+     "tr": "",
+     "fusha": "اُكْتُبي"
+    },
+    {
+     "gulf": "اُكْتُبوا",
+     "tr": "",
+     "fusha": "اُكْتُبوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "كَتَبْت رِسالة لأَخوي",
+     "fusha": "كَتَبْتُ رِسالَةً لِأَخي",
+     "en": "I wrote a letter to my brother."
+    }
+   ],
+   "notes": []
+  },
+  {
+   "slug": "drink",
+   "ar": "شرب / يشرب",
+   "en": "to drink",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "شَرَبْت",
+     "tr": "",
+     "fusha": "شَرَبْتُ"
+    },
+    {
+     "gulf": "شَرَبْت",
+     "tr": "",
+     "fusha": "شَرَبْتَ"
+    },
+    {
+     "gulf": "شَرَبْتي",
+     "tr": "",
+     "fusha": "شَرَبْتِ"
+    },
+    {
+     "gulf": "شَرَب",
+     "tr": "",
+     "fusha": "شَرَبَ"
+    },
+    {
+     "gulf": "شَرَبَت",
+     "tr": "",
+     "fusha": "شَرَبَتْ"
+    },
+    {
+     "gulf": "شَرَبْنا",
+     "tr": "",
+     "fusha": "شَرَبْنا"
+    },
+    {
+     "gulf": "شَرَبْتوا",
+     "tr": "",
+     "fusha": "شَرَبْتُمْ"
+    },
+    {
+     "gulf": "شَرَبوا",
+     "tr": "",
+     "fusha": "شَرَبوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَشْرَب",
+     "tr": "",
+     "fusha": "أَشْرَبُ"
+    },
+    {
+     "gulf": "تِشْرَب",
+     "tr": "",
+     "fusha": "تَشْرَبُ"
+    },
+    {
+     "gulf": "تِشْرَبين",
+     "tr": "",
+     "fusha": "تَشْرَبينَ"
+    },
+    {
+     "gulf": "يِشْرَب",
+     "tr": "",
+     "fusha": "يَشْرَبُ"
+    },
+    {
+     "gulf": "تِشْرَب",
+     "tr": "",
+     "fusha": "تَشْرَبُ"
+    },
+    {
+     "gulf": "نِشْرَب",
+     "tr": "",
+     "fusha": "نَشْرَبُ"
+    },
+    {
+     "gulf": "تِشْرَبون",
+     "tr": "",
+     "fusha": "تَشْرَبونَ"
+    },
+    {
+     "gulf": "يِشْرَبون",
+     "tr": "",
+     "fusha": "يَشْرَبونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "اِشْرَبْ",
+     "tr": "",
+     "fusha": "اِشْرَبْ"
+    },
+    {
+     "gulf": "اِشْرَبي",
+     "tr": "",
+     "fusha": "اِشْرَبي"
+    },
+    {
+     "gulf": "اِشْرَبوا",
+     "tr": "",
+     "fusha": "اِشْرَبوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "تِشرَب قَهوة؟",
+     "fusha": "هَلْ تَشْرَبُ القَهْوَةَ؟",
+     "en": "Do you drink coffee?"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "slug": "eat",
+   "ar": "أكل / ياكل",
+   "en": "to eat",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "أَكَلْت",
+     "tr": "",
+     "fusha": "أَكَلْتُ"
+    },
+    {
+     "gulf": "أَكَلْت",
+     "tr": "",
+     "fusha": "أَكَلْتَ"
+    },
+    {
+     "gulf": "أَكَلْتي",
+     "tr": "",
+     "fusha": "أَكَلْتِ"
+    },
+    {
+     "gulf": "أَكَل",
+     "tr": "",
+     "fusha": "أَكَلَ"
+    },
+    {
+     "gulf": "أَكَلَت",
+     "tr": "",
+     "fusha": "أَكَلَتْ"
+    },
+    {
+     "gulf": "أَكَلْنا",
+     "tr": "",
+     "fusha": "أَكَلْنا"
+    },
+    {
+     "gulf": "أَكَلْتوا",
+     "tr": "",
+     "fusha": "أَكَلْتُمْ"
+    },
+    {
+     "gulf": "أَكَلوا",
+     "tr": "",
+     "fusha": "أَكَلوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "آكُل",
+     "tr": "",
+     "fusha": "آكُلُ"
+    },
+    {
+     "gulf": "تاكُل",
+     "tr": "",
+     "fusha": "تَأْكُلُ"
+    },
+    {
+     "gulf": "تاكُلين",
+     "tr": "",
+     "fusha": "تَأْكُلينَ"
+    },
+    {
+     "gulf": "ياكُل",
+     "tr": "",
+     "fusha": "يَأْكُلُ"
+    },
+    {
+     "gulf": "تاكُل",
+     "tr": "",
+     "fusha": "تَأْكُلُ"
+    },
+    {
+     "gulf": "ناكُل",
+     "tr": "",
+     "fusha": "نَأْكُلُ"
+    },
+    {
+     "gulf": "تاكُلون",
+     "tr": "",
+     "fusha": "تَأْكُلونَ"
+    },
+    {
+     "gulf": "ياكُلون",
+     "tr": "",
+     "fusha": "يَأْكُلونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "كُل",
+     "tr": "",
+     "fusha": "كُلْ"
+    },
+    {
+     "gulf": "كُلي",
+     "tr": "",
+     "fusha": "كُلي"
+    },
+    {
+     "gulf": "كُلوا",
+     "tr": "",
+     "fusha": "كُلوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "أَكَلْنا العَشا مَع بَعض",
+     "fusha": "أَكَلْنا العَشاءَ مَعاً",
+     "en": "We ate dinner together."
+    }
+   ],
+   "notes": []
+  },
+  {
+   "slug": "take",
+   "ar": "أخذ / ياخذ",
+   "en": "to take",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "أَخَذْت",
+     "tr": "",
+     "fusha": "أَخَذْتُ"
+    },
+    {
+     "gulf": "أَخَذْت",
+     "tr": "",
+     "fusha": "أَخَذْتَ"
+    },
+    {
+     "gulf": "أَخَذْتي",
+     "tr": "",
+     "fusha": "أَخَذْتِ"
+    },
+    {
+     "gulf": "أَخَذ",
+     "tr": "",
+     "fusha": "أَخَذَ"
+    },
+    {
+     "gulf": "أَخَذَت",
+     "tr": "",
+     "fusha": "أَخَذَتْ"
+    },
+    {
+     "gulf": "أَخَذْنا",
+     "tr": "",
+     "fusha": "أَخَذْنا"
+    },
+    {
+     "gulf": "أَخَذْتوا",
+     "tr": "",
+     "fusha": "أَخَذْتُمْ"
+    },
+    {
+     "gulf": "أَخَذوا",
+     "tr": "",
+     "fusha": "أَخَذوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "آخُذ",
+     "tr": "",
+     "fusha": "آخُذُ"
+    },
+    {
+     "gulf": "تاخُذ",
+     "tr": "",
+     "fusha": "تَأْخُذُ"
+    },
+    {
+     "gulf": "تاخُذين",
+     "tr": "",
+     "fusha": "تَأْخُذينَ"
+    },
+    {
+     "gulf": "ياخُذ",
+     "tr": "",
+     "fusha": "يَأْخُذُ"
+    },
+    {
+     "gulf": "تاخُذ",
+     "tr": "",
+     "fusha": "تَأْخُذُ"
+    },
+    {
+     "gulf": "ناخُذ",
+     "tr": "",
+     "fusha": "نَأْخُذُ"
+    },
+    {
+     "gulf": "تاخُذون",
+     "tr": "",
+     "fusha": "تَأْخُذونَ"
+    },
+    {
+     "gulf": "ياخُذون",
+     "tr": "",
+     "fusha": "يَأْخُذونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "خُذ",
+     "tr": "",
+     "fusha": "خُذْ"
+    },
+    {
+     "gulf": "خُذي",
+     "tr": "",
+     "fusha": "خُذي"
+    },
+    {
+     "gulf": "خُذوا",
+     "tr": "",
+     "fusha": "خُذوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "خُذ هذا الكِتاب",
+     "fusha": "خُذْ هذا الكِتابَ",
+     "en": "Take this book."
+    }
+   ],
+   "notes": []
+  },
+  {
+   "slug": "say",
+   "ar": "قال / يقول",
+   "en": "to say",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "قِلْت",
+     "tr": "",
+     "fusha": "قُلْتُ"
+    },
+    {
+     "gulf": "قِلْت",
+     "tr": "",
+     "fusha": "قُلْتَ"
+    },
+    {
+     "gulf": "قِلْتي",
+     "tr": "",
+     "fusha": "قُلْتِ"
+    },
+    {
+     "gulf": "قال",
+     "tr": "",
+     "fusha": "قالَ"
+    },
+    {
+     "gulf": "قالَت",
+     "tr": "",
+     "fusha": "قالَتْ"
+    },
+    {
+     "gulf": "قِلْنا",
+     "tr": "",
+     "fusha": "قُلْنا"
+    },
+    {
+     "gulf": "قِلْتوا",
+     "tr": "",
+     "fusha": "قُلْتُمْ"
+    },
+    {
+     "gulf": "قالوا",
+     "tr": "",
+     "fusha": "قالوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَقول",
+     "tr": "",
+     "fusha": "أَقولُ"
+    },
+    {
+     "gulf": "تِقول",
+     "tr": "",
+     "fusha": "تَقولُ"
+    },
+    {
+     "gulf": "تِقولين",
+     "tr": "",
+     "fusha": "تَقولينَ"
+    },
+    {
+     "gulf": "يِقول",
+     "tr": "",
+     "fusha": "يَقولُ"
+    },
+    {
+     "gulf": "تِقول",
+     "tr": "",
+     "fusha": "تَقولُ"
+    },
+    {
+     "gulf": "نِقول",
+     "tr": "",
+     "fusha": "نَقولُ"
+    },
+    {
+     "gulf": "تِقولون",
+     "tr": "",
+     "fusha": "تَقولونَ"
+    },
+    {
+     "gulf": "يِقولون",
+     "tr": "",
+     "fusha": "يَقولونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "قول",
+     "tr": "",
+     "fusha": "قُلْ"
+    },
+    {
+     "gulf": "قولي",
+     "tr": "",
+     "fusha": "قولي"
+    },
+    {
+     "gulf": "قولوا",
+     "tr": "",
+     "fusha": "قولوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "قال إِنَّه راح البَيت",
+     "fusha": "قالَ إِنَّهُ ذَهَبَ إِلى البَيْتِ",
+     "en": "He said he went home."
+    }
+   ],
+   "notes": []
+  },
+  {
+   "slug": "sleep",
+   "ar": "نام / ينام",
+   "en": "to sleep",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "نِمْت",
+     "tr": "",
+     "fusha": "نِمْتُ"
+    },
+    {
+     "gulf": "نِمْت",
+     "tr": "",
+     "fusha": "نِمْتَ"
+    },
+    {
+     "gulf": "نِمْتي",
+     "tr": "",
+     "fusha": "نِمْتِ"
+    },
+    {
+     "gulf": "نام",
+     "tr": "",
+     "fusha": "نامَ"
+    },
+    {
+     "gulf": "نامَت",
+     "tr": "",
+     "fusha": "نامَتْ"
+    },
+    {
+     "gulf": "نِمْنا",
+     "tr": "",
+     "fusha": "نِمْنا"
+    },
+    {
+     "gulf": "نِمْتوا",
+     "tr": "",
+     "fusha": "نِمْتُمْ"
+    },
+    {
+     "gulf": "ناموا",
+     "tr": "",
+     "fusha": "ناموا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَنام",
+     "tr": "",
+     "fusha": "أَنامُ"
+    },
+    {
+     "gulf": "تِنام",
+     "tr": "",
+     "fusha": "تَنامُ"
+    },
+    {
+     "gulf": "تِنامين",
+     "tr": "",
+     "fusha": "تَنامينَ"
+    },
+    {
+     "gulf": "يِنام",
+     "tr": "",
+     "fusha": "يَنامُ"
+    },
+    {
+     "gulf": "تِنام",
+     "tr": "",
+     "fusha": "تَنامُ"
+    },
+    {
+     "gulf": "نِنام",
+     "tr": "",
+     "fusha": "نَنامُ"
+    },
+    {
+     "gulf": "تِنامون",
+     "tr": "",
+     "fusha": "تَنامونَ"
+    },
+    {
+     "gulf": "يِنامون",
+     "tr": "",
+     "fusha": "يَنامونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "نام",
+     "tr": "",
+     "fusha": "نَمْ"
+    },
+    {
+     "gulf": "نامي",
+     "tr": "",
+     "fusha": "نامي"
+    },
+    {
+     "gulf": "ناموا",
+     "tr": "",
+     "fusha": "ناموا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "نِمْت مُتَأَخِّر أَمس",
+     "fusha": "نِمْتُ مُتَأَخِّراً أَمْسِ",
+     "en": "I slept late yesterday."
+    }
+   ],
+   "notes": []
+  },
+  {
+   "slug": "come",
+   "ar": "جا / يجي",
+   "en": "to come",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "جِيت",
+     "tr": "",
+     "fusha": "جِئْتُ"
+    },
+    {
+     "gulf": "جِيت",
+     "tr": "",
+     "fusha": "جِئْتَ"
+    },
+    {
+     "gulf": "جِيتي",
+     "tr": "",
+     "fusha": "جِئْتِ"
+    },
+    {
+     "gulf": "جا",
+     "tr": "",
+     "fusha": "جاءَ"
+    },
+    {
+     "gulf": "جات",
+     "tr": "",
+     "fusha": "جاءَتْ"
+    },
+    {
+     "gulf": "جِينا",
+     "tr": "",
+     "fusha": "جِئْنا"
+    },
+    {
+     "gulf": "جِيتوا",
+     "tr": "",
+     "fusha": "جِئْتُمْ"
+    },
+    {
+     "gulf": "جوا",
+     "tr": "",
+     "fusha": "جاؤوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَجي",
+     "tr": "",
+     "fusha": "آتي"
+    },
+    {
+     "gulf": "تِجي",
+     "tr": "",
+     "fusha": "تَأْتي"
+    },
+    {
+     "gulf": "تِجين",
+     "tr": "",
+     "fusha": "تَأْتينَ"
+    },
+    {
+     "gulf": "يِجي",
+     "tr": "",
+     "fusha": "يَأْتي"
+    },
+    {
+     "gulf": "تِجي",
+     "tr": "",
+     "fusha": "تَأْتي"
+    },
+    {
+     "gulf": "نِجي",
+     "tr": "",
+     "fusha": "نَأْتي"
+    },
+    {
+     "gulf": "تِجون",
+     "tr": "",
+     "fusha": "تَأْتونَ"
+    },
+    {
+     "gulf": "يِجون",
+     "tr": "",
+     "fusha": "يَأْتونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "تَعال",
+     "tr": "",
+     "fusha": "تَعالَ"
+    },
+    {
+     "gulf": "تَعالي",
+     "tr": "",
+     "fusha": "تَعالَيْ"
+    },
+    {
+     "gulf": "تَعالوا",
+     "tr": "",
+     "fusha": "تَعالَوْا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "جِيت بَدري اليَوم",
+     "fusha": "جِئْتُ مُبَكِّراً اليَوْمَ",
+     "en": "I came early today."
+    }
+   ],
+   "notes": []
+  }
+ ]
+}
