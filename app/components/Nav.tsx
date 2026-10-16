@@ -6,6 +6,7 @@ const links = [
   { href: "/", label: "Learn", match: (p: string) => p === "/" || p.startsWith("/learn") || p.startsWith("/verbs") },
   { href: "/practice", label: "Flashcards", match: (p: string) => p.startsWith("/practice") },
   { href: "/quiz", label: "Quiz", match: (p: string) => p.startsWith("/quiz") },
+  { href: "/homework", label: "Homework", match: (p: string) => p.startsWith("/homework") },
 ];
 
 export default function Nav() {

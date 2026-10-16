@@ -42,6 +42,9 @@ export default function HomeView({ units, titles, total }: { units: UnitCard[]; 
           <Link className="btn" href="/quiz">
             Quiz
           </Link>
+          <Link className="btn" href="/homework">
+            Homework
+          </Link>
         </div>
       </div>
 

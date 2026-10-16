@@ -15,6 +15,7 @@ npm run dev
 - `/verbs/[slug]`: full conjugation (past / present / future / command), Gulf + Fusha toggle, notes and example sentences
 - `/practice`: flashcards by topic or by page, Arabic → English or reverse, "Again / Got it" tracking
 - `/quiz`: multiple-choice quiz by topic
+- `/homework`: teacher homework to fill in on the site (answers autosave in the browser), with a print / save-as-PDF layout to hand in
 
 Progress is stored in the browser (localStorage) only. Pronunciation uses the Web Speech API (`ar-SA`).
 
@@ -24,6 +25,7 @@ All content is data, separate from the UI:
 
 - `lib/content/lessons.ts`: lesson pages, built from typed sections (`table`, `phrases`, `note`, `tips`, `days`). `note` with `tone: "fix"` marks corrections to the lesson notes.
 - `lib/content/verbs.json`: verb conjugations, notes and example sentences.
+- `lib/content/homework.ts`: homework sheets (conjugation grid, translation, sentence building).
 - `lib/data.ts`: topic (unit) order, study path, and the flashcard deck (built from lesson `cards`, every `phrases` section, and each verb).
 
 To add a lesson: add it to `lessons.ts`, then list its slug under a unit in `lib/data.ts`.
