@@ -31,6 +31,11 @@ export const units: Unit[] = [
     lessons: ["time-words", "days-and-times"],
   },
   {
+    id: "numbers", title: "Numbers", ar: "الأرقام", tone: "rose",
+    blurb: "Counting 1 to 1000, Arabic digits, building big numbers.",
+    lessons: ["numbers-1-19", "numbers-20-1000"],
+  },
+  {
     id: "verbs", title: "Verbs", ar: "الأفعال", tone: "green",
     blurb: "Past, present, future, command, verb by verb.",
     lessons: ["how-verbs-work"],
