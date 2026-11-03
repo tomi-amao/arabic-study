@@ -93,6 +93,7 @@ const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const PAST: Record<string, string> = {
   go: "went", see: "saw", make: "made / did", read: "read", buy: "bought", write: "wrote",
   drink: "drank", eat: "ate", take: "took", say: "said", sleep: "slept", come: "came",
+  watch: "watched", play: "played", walk: "walked / left", call: "called", hear: "heard",
 };
 const pastEn = (v: Verb) => PAST[v.slug] ?? v.en;
 

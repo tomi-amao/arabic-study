@@ -200,6 +200,8 @@ details summary { cursor: pointer; list-style-position: inside; }
 .hw-head h1 { margin-top: 0; }
 .hw-title-ar { display: block; font-size: 1.35rem; }
 .hw-meta label { display: grid; gap: 4px; max-width: 320px; margin-top: 10px; }
+.hw-meta label.hw-check { display: flex; align-items: center; gap: 8px; max-width: none; }
+.hw-check input { width: 18px; height: 18px; accent-color: var(--tone); }
 .hw-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
 .hw-progress { flex: 1 1 220px; display: grid; gap: 6px; }
 .hw-input { font: inherit; font-size: 1.05rem; width: 100%; min-width: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); padding: 8px 10px; }
