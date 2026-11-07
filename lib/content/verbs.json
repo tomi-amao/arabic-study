@@ -742,6 +742,147 @@
    ]
   },
   {
+   "slug": "be",
+   "ar": "كان / يِكون",
+   "en": "to be (was / were)",
+   "kind": "Hollow",
+   "core": true,
+   "past": [
+    {
+     "gulf": "كُنْت",
+     "tr": "kunt",
+     "fusha": "كُنْتُ"
+    },
+    {
+     "gulf": "كُنْت",
+     "tr": "kunt",
+     "fusha": "كُنْتَ"
+    },
+    {
+     "gulf": "كُنْتي",
+     "tr": "kunti",
+     "fusha": "كُنْتِ"
+    },
+    {
+     "gulf": "كان",
+     "tr": "kān",
+     "fusha": "كانَ"
+    },
+    {
+     "gulf": "كانَت",
+     "tr": "kānat",
+     "fusha": "كانَتْ"
+    },
+    {
+     "gulf": "كُنّا",
+     "tr": "kunna",
+     "fusha": "كُنّا"
+    },
+    {
+     "gulf": "كُنْتوا",
+     "tr": "kuntu",
+     "fusha": "كُنْتُمْ"
+    },
+    {
+     "gulf": "كانوا",
+     "tr": "kānu",
+     "fusha": "كانوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَكون",
+     "tr": "akūn",
+     "fusha": "أَكونُ"
+    },
+    {
+     "gulf": "تِكون",
+     "tr": "tkūn",
+     "fusha": "تَكونُ"
+    },
+    {
+     "gulf": "تِكونين",
+     "tr": "tkūnīn",
+     "fusha": "تَكونينَ"
+    },
+    {
+     "gulf": "يِكون",
+     "tr": "ykūn",
+     "fusha": "يَكونُ"
+    },
+    {
+     "gulf": "تِكون",
+     "tr": "tkūn",
+     "fusha": "تَكونُ"
+    },
+    {
+     "gulf": "نِكون",
+     "tr": "nkūn",
+     "fusha": "نَكونُ"
+    },
+    {
+     "gulf": "تِكونون",
+     "tr": "tkūnūn",
+     "fusha": "تَكونونَ"
+    },
+    {
+     "gulf": "يِكونون",
+     "tr": "ykūnūn",
+     "fusha": "يَكونونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "كون",
+     "tr": "kūn",
+     "fusha": "كُنْ"
+    },
+    {
+     "gulf": "كوني",
+     "tr": "kūni",
+     "fusha": "كوني"
+    },
+    {
+     "gulf": "كونوا",
+     "tr": "kūnu",
+     "fusha": "كونوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "أَنا كُنْت تَعْبان",
+     "tr": "ana kunt taʿbān",
+     "fusha": "كُنْتُ مُتْعَباً",
+     "en": "I was tired."
+    },
+    {
+     "gulf": "هُم كانوا يِلْعَبون",
+     "tr": "hum kānu yilʿabūn",
+     "fusha": "كانوا يَلْعَبونَ",
+     "en": "They were playing."
+    },
+    {
+     "gulf": "هِيَ كانَت في بَيْتنا الأُسْبوع اللي فات مَع أُمّها",
+     "tr": "hiya kānat fi baytna l-usbūʿ illi fāt maʿ ummha",
+     "fusha": "كانَتْ في بَيْتِنا الأُسْبوعَ الماضي مَعَ أُمِّها",
+     "en": "She was at our house last week with her mother."
+    },
+    {
+     "gulf": "هُم كانوا ثَلاثَة قَبْل أُسْبوعَيْن لَكِن الحين هُم عِشْرين",
+     "tr": "hum kānu thalātha gabl usbūʿēn lākin al-ḥīn hum ʿishrīn",
+     "fusha": "كانوا ثَلاثَةً قَبْلَ أُسْبوعَيْنِ، لَكِنَّهُم الآنَ عِشْرون",
+     "en": "Two weeks ago there were three of them, but now there are twenty."
+    }
+   ],
+   "notes": [
+    "كان is “was / were”. In the present you usually leave “am / is / are” out: أنا تعبان = I am tired, but أنا كنت تعبان = I was tired.",
+    "كان + a present verb means “was doing” or “used to do”: هم كانوا يلعبون = they were playing.",
+    "It is hollow like راح and شاف: a long ā for he, she and they (كان، كانت، كانوا) and a short u for I, you and we (كنت، كنّا، كنتوا).",
+    "Present and command: يكون is mostly heard after راح or لازم (راح يكون = it will be). These forms and the Fusha column were added for reference; your notes only had the past.",
+    "In Fusha the word after كان takes an -an ending (كنتُ متعباً); in Gulf it does not (كنت تعبان)."
+   ]
+  },
+  {
    "slug": "write",
    "ar": "كتب / يكتب",
    "en": "to write",
@@ -1552,6 +1693,638 @@
     }
    ],
    "notes": []
+  },
+  {
+   "slug": "watch",
+   "ar": "تِفَرَّج / يِتْفَرَّج",
+   "en": "to watch",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "تْفَرَّجْت",
+     "tr": "tfarrajt",
+     "fusha": "شاهَدْتُ"
+    },
+    {
+     "gulf": "تْفَرَّجْت",
+     "tr": "tfarrajt",
+     "fusha": "شاهَدْتَ"
+    },
+    {
+     "gulf": "تْفَرَّجْتي",
+     "tr": "tfarrajti",
+     "fusha": "شاهَدْتِ"
+    },
+    {
+     "gulf": "تْفَرَّج",
+     "tr": "tfarraj",
+     "fusha": "شاهَدَ"
+    },
+    {
+     "gulf": "تْفَرَّجَت",
+     "tr": "tfarrajat",
+     "fusha": "شاهَدَتْ"
+    },
+    {
+     "gulf": "تْفَرَّجْنا",
+     "tr": "tfarrajna",
+     "fusha": "شاهَدْنا"
+    },
+    {
+     "gulf": "تْفَرَّجْتوا",
+     "tr": "tfarrajtu",
+     "fusha": "شاهَدْتُمْ"
+    },
+    {
+     "gulf": "تْفَرَّجوا",
+     "tr": "tfarraju",
+     "fusha": "شاهَدوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَتْفَرَّج",
+     "tr": "atfarraj",
+     "fusha": "أُشاهِدُ"
+    },
+    {
+     "gulf": "تِتْفَرَّج",
+     "tr": "titfarraj",
+     "fusha": "تُشاهِدُ"
+    },
+    {
+     "gulf": "تِتْفَرَّجين",
+     "tr": "titfarrajīn",
+     "fusha": "تُشاهِدينَ"
+    },
+    {
+     "gulf": "يِتْفَرَّج",
+     "tr": "yitfarraj",
+     "fusha": "يُشاهِدُ"
+    },
+    {
+     "gulf": "تِتْفَرَّج",
+     "tr": "titfarraj",
+     "fusha": "تُشاهِدُ"
+    },
+    {
+     "gulf": "نِتْفَرَّج",
+     "tr": "nitfarraj",
+     "fusha": "نُشاهِدُ"
+    },
+    {
+     "gulf": "تِتْفَرَّجون",
+     "tr": "titfarrajūn",
+     "fusha": "تُشاهِدونَ"
+    },
+    {
+     "gulf": "يِتْفَرَّجون",
+     "tr": "yitfarrajūn",
+     "fusha": "يُشاهِدونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "تْفَرَّج",
+     "tr": "tfarraj",
+     "fusha": "شاهِدْ"
+    },
+    {
+     "gulf": "تْفَرَّجي",
+     "tr": "tfarraji",
+     "fusha": "شاهِدي"
+    },
+    {
+     "gulf": "تْفَرَّجوا",
+     "tr": "tfarraju",
+     "fusha": "شاهِدوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "تْفَرَّجْت عَلى الفِلْم أَمْس",
+     "tr": "tfarrajt ʿala l-film ams",
+     "fusha": "شاهَدْتُ الفيلْمَ أَمْسِ",
+     "en": "I watched the film yesterday."
+    },
+    {
+     "gulf": "هِيَ راح تِتْفَرَّج عَلى المُباراة بُكْرَة",
+     "tr": "hiya raḥ titfarraj ʿala l-mubārāh bukra",
+     "fusha": "سَتُشاهِدُ المُباراةَ غَداً",
+     "en": "She will watch the match tomorrow."
+    }
+   ],
+   "notes": [
+    "Gulf uses عَلى for the thing you watch: تفرّج على التلفزيون (watch TV). Fusha شاهد takes a direct object, with no على.",
+    "The past starts with a clipped تْـ (tfarraj); you may also hear it written تَفَرَّج. Both are the same word."
+   ]
+  },
+  {
+   "slug": "play",
+   "ar": "لِعِب / يِلْعَب",
+   "en": "to play",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "لِعِبْت",
+     "tr": "liʿibt",
+     "fusha": "لَعِبْتُ"
+    },
+    {
+     "gulf": "لِعِبْت",
+     "tr": "liʿibt",
+     "fusha": "لَعِبْتَ"
+    },
+    {
+     "gulf": "لِعِبْتي",
+     "tr": "liʿibti",
+     "fusha": "لَعِبْتِ"
+    },
+    {
+     "gulf": "لِعِب",
+     "tr": "liʿib",
+     "fusha": "لَعِبَ"
+    },
+    {
+     "gulf": "لِعْبَت",
+     "tr": "liʿbat",
+     "fusha": "لَعِبَتْ"
+    },
+    {
+     "gulf": "لِعِبْنا",
+     "tr": "liʿibna",
+     "fusha": "لَعِبْنا"
+    },
+    {
+     "gulf": "لِعِبْتوا",
+     "tr": "liʿibtu",
+     "fusha": "لَعِبْتُمْ"
+    },
+    {
+     "gulf": "لِعْبوا",
+     "tr": "liʿbu",
+     "fusha": "لَعِبوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَلْعَب",
+     "tr": "alʿab",
+     "fusha": "أَلْعَبُ"
+    },
+    {
+     "gulf": "تِلْعَب",
+     "tr": "tilʿab",
+     "fusha": "تَلْعَبُ"
+    },
+    {
+     "gulf": "تِلْعَبين",
+     "tr": "tilʿabīn",
+     "fusha": "تَلْعَبينَ"
+    },
+    {
+     "gulf": "يِلْعَب",
+     "tr": "yilʿab",
+     "fusha": "يَلْعَبُ"
+    },
+    {
+     "gulf": "تِلْعَب",
+     "tr": "tilʿab",
+     "fusha": "تَلْعَبُ"
+    },
+    {
+     "gulf": "نِلْعَب",
+     "tr": "nilʿab",
+     "fusha": "نَلْعَبُ"
+    },
+    {
+     "gulf": "تِلْعَبون",
+     "tr": "tilʿabūn",
+     "fusha": "تَلْعَبونَ"
+    },
+    {
+     "gulf": "يِلْعَبون",
+     "tr": "yilʿabūn",
+     "fusha": "يَلْعَبونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "اِلْعَب",
+     "tr": "ilʿab",
+     "fusha": "اِلْعَبْ"
+    },
+    {
+     "gulf": "اِلْعَبي",
+     "tr": "ilʿabi",
+     "fusha": "اِلْعَبي"
+    },
+    {
+     "gulf": "اِلْعَبوا",
+     "tr": "ilʿabu",
+     "fusha": "اِلْعَبوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "لِعِبْنا كورَة أَمْس",
+     "tr": "liʿibna kūra ams",
+     "fusha": "لَعِبْنا كُرَةَ القَدَمِ أَمْسِ",
+     "en": "We played football yesterday."
+    },
+    {
+     "gulf": "الأَطْفال يِلْعَبون في الحَديقَة",
+     "tr": "el-aṭfāl yilʿabūn fi l-ḥadīqa",
+     "fusha": "يَلْعَبُ الأَطْفالُ في الحَديقَةِ",
+     "en": "The children are playing in the garden."
+    }
+   ],
+   "notes": [
+    "A regular three-letter verb, like كتب: the past vowel is i (liʿib) and the present vowel is a (yilʿab).",
+    "كورة on its own means football in Saudi speech."
+   ]
+  },
+  {
+   "slug": "walk",
+   "ar": "مِشَى / يِمْشي",
+   "en": "to walk / leave",
+   "kind": "Defective",
+   "core": false,
+   "past": [
+    {
+     "gulf": "مَشَيْت",
+     "tr": "mashēt",
+     "fusha": "مَشَيْتُ"
+    },
+    {
+     "gulf": "مَشَيْت",
+     "tr": "mashēt",
+     "fusha": "مَشَيْتَ"
+    },
+    {
+     "gulf": "مَشَيْتي",
+     "tr": "mashēti",
+     "fusha": "مَشَيْتِ"
+    },
+    {
+     "gulf": "مِشَى",
+     "tr": "misha",
+     "fusha": "مَشى"
+    },
+    {
+     "gulf": "مِشَت",
+     "tr": "mishat",
+     "fusha": "مَشَتْ"
+    },
+    {
+     "gulf": "مَشَيْنا",
+     "tr": "mashēna",
+     "fusha": "مَشَيْنا"
+    },
+    {
+     "gulf": "مَشَيْتوا",
+     "tr": "mashētu",
+     "fusha": "مَشَيْتُمْ"
+    },
+    {
+     "gulf": "مِشَوا",
+     "tr": "mishaw",
+     "fusha": "مَشَوْا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَمْشي",
+     "tr": "amshi",
+     "fusha": "أَمْشي"
+    },
+    {
+     "gulf": "تِمْشي",
+     "tr": "timshi",
+     "fusha": "تَمْشي"
+    },
+    {
+     "gulf": "تِمْشين",
+     "tr": "timshīn",
+     "fusha": "تَمْشينَ"
+    },
+    {
+     "gulf": "يِمْشي",
+     "tr": "yimshi",
+     "fusha": "يَمْشي"
+    },
+    {
+     "gulf": "تِمْشي",
+     "tr": "timshi",
+     "fusha": "تَمْشي"
+    },
+    {
+     "gulf": "نِمْشي",
+     "tr": "nimshi",
+     "fusha": "نَمْشي"
+    },
+    {
+     "gulf": "تِمْشون",
+     "tr": "timshūn",
+     "fusha": "تَمْشونَ"
+    },
+    {
+     "gulf": "يِمْشون",
+     "tr": "yimshūn",
+     "fusha": "يَمْشونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "اِمْشِ",
+     "tr": "imsh",
+     "fusha": "اِمْشِ"
+    },
+    {
+     "gulf": "اِمْشي",
+     "tr": "imshi",
+     "fusha": "اِمْشي"
+    },
+    {
+     "gulf": "اِمْشوا",
+     "tr": "imshu",
+     "fusha": "اِمْشوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "يَلّا نِمْشي!",
+     "tr": "yalla nimshi!",
+     "fusha": "هَيّا نَذْهَب!",
+     "en": "Come on, let’s go / leave!"
+    },
+    {
+     "gulf": "مَشَيْت لِلدَّوام الصُّبْح",
+     "tr": "mashēt lid-dawām eṣ-ṣubḥ",
+     "fusha": "مَشَيْتُ إِلى العَمَلِ صَباحاً",
+     "en": "I walked to work this morning."
+    }
+   ],
+   "notes": [
+    "In Saudi speech مشى often means “leave / head off”, not only “walk”: أنا ماشي = I’m off.",
+    "It ends in ي like اشترى, so the present takes the same -īn / -ūn endings: تمشين، يمشون.",
+    "Command: you will hear امشي for a man too in everyday speech; the table shows the textbook اِمْشِ."
+   ]
+  },
+  {
+   "slug": "call",
+   "ar": "دَقّ / يِدِقّ",
+   "en": "to call (phone)",
+   "kind": "Doubled",
+   "core": false,
+   "past": [
+    {
+     "gulf": "دَقَّيْت",
+     "tr": "daggēt",
+     "fusha": "اِتَّصَلْتُ"
+    },
+    {
+     "gulf": "دَقَّيْت",
+     "tr": "daggēt",
+     "fusha": "اِتَّصَلْتَ"
+    },
+    {
+     "gulf": "دَقَّيْتي",
+     "tr": "daggēti",
+     "fusha": "اِتَّصَلْتِ"
+    },
+    {
+     "gulf": "دَقّ",
+     "tr": "dagg",
+     "fusha": "اِتَّصَلَ"
+    },
+    {
+     "gulf": "دَقَّت",
+     "tr": "daggat",
+     "fusha": "اِتَّصَلَتْ"
+    },
+    {
+     "gulf": "دَقَّيْنا",
+     "tr": "daggēna",
+     "fusha": "اِتَّصَلْنا"
+    },
+    {
+     "gulf": "دَقَّيْتوا",
+     "tr": "daggētu",
+     "fusha": "اِتَّصَلْتُمْ"
+    },
+    {
+     "gulf": "دَقّوا",
+     "tr": "daggu",
+     "fusha": "اِتَّصَلوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَدِقّ",
+     "tr": "adigg",
+     "fusha": "أَتَّصِلُ"
+    },
+    {
+     "gulf": "تِدِقّ",
+     "tr": "tdigg",
+     "fusha": "تَتَّصِلُ"
+    },
+    {
+     "gulf": "تِدِقّين",
+     "tr": "tdiggīn",
+     "fusha": "تَتَّصِلينَ"
+    },
+    {
+     "gulf": "يِدِقّ",
+     "tr": "ydigg",
+     "fusha": "يَتَّصِلُ"
+    },
+    {
+     "gulf": "تِدِقّ",
+     "tr": "tdigg",
+     "fusha": "تَتَّصِلُ"
+    },
+    {
+     "gulf": "نِدِقّ",
+     "tr": "ndigg",
+     "fusha": "نَتَّصِلُ"
+    },
+    {
+     "gulf": "تِدِقّون",
+     "tr": "tdiggūn",
+     "fusha": "تَتَّصِلونَ"
+    },
+    {
+     "gulf": "يِدِقّون",
+     "tr": "ydiggūn",
+     "fusha": "يَتَّصِلونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "دِقّ",
+     "tr": "digg",
+     "fusha": "اِتَّصِلْ"
+    },
+    {
+     "gulf": "دِقّي",
+     "tr": "diggi",
+     "fusha": "اِتَّصِلي"
+    },
+    {
+     "gulf": "دِقّوا",
+     "tr": "diggu",
+     "fusha": "اِتَّصِلوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "دَقَّيْت عَلى أُمّي أَمْس",
+     "tr": "daggēt ʿala ummi ams",
+     "fusha": "اِتَّصَلْتُ بِأُمّي أَمْسِ",
+     "en": "I called my mum yesterday."
+    },
+    {
+     "gulf": "دِقّ عَلَيّ بُكْرَة",
+     "tr": "digg ʿalayy bukra",
+     "fusha": "اِتَّصِلْ بي غَداً",
+     "en": "Call me tomorrow (to a man)."
+    }
+   ],
+   "notes": [
+    "دقّ literally means “knock / ring” (دقّ الباب = knock on the door). With على a person it means phone them: دقّ عليه.",
+    "Saudis usually say ق as g here: dagg. A doubled verb adds -ē- before past endings: دقّ → دقّيت (like حبّ → حبّيت).",
+    "Fusha uses a different verb, اِتَّصَلَ بِـ (to contact / call). It was added for reference; it was not on your sheets."
+   ]
+  },
+  {
+   "slug": "hear",
+   "ar": "سِمِع / يِسْمَع",
+   "en": "to hear / listen",
+   "kind": "Common",
+   "core": false,
+   "past": [
+    {
+     "gulf": "سِمِعْت",
+     "tr": "simiʿt",
+     "fusha": "سَمِعْتُ"
+    },
+    {
+     "gulf": "سِمِعْت",
+     "tr": "simiʿt",
+     "fusha": "سَمِعْتَ"
+    },
+    {
+     "gulf": "سِمِعْتي",
+     "tr": "simiʿti",
+     "fusha": "سَمِعْتِ"
+    },
+    {
+     "gulf": "سِمِع",
+     "tr": "simiʿ",
+     "fusha": "سَمِعَ"
+    },
+    {
+     "gulf": "سِمْعَت",
+     "tr": "simʿat",
+     "fusha": "سَمِعَتْ"
+    },
+    {
+     "gulf": "سِمِعْنا",
+     "tr": "simiʿna",
+     "fusha": "سَمِعْنا"
+    },
+    {
+     "gulf": "سِمِعْتوا",
+     "tr": "simiʿtu",
+     "fusha": "سَمِعْتُمْ"
+    },
+    {
+     "gulf": "سِمْعوا",
+     "tr": "simʿu",
+     "fusha": "سَمِعوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَسْمَع",
+     "tr": "asmaʿ",
+     "fusha": "أَسْمَعُ"
+    },
+    {
+     "gulf": "تِسْمَع",
+     "tr": "tismaʿ",
+     "fusha": "تَسْمَعُ"
+    },
+    {
+     "gulf": "تِسْمَعين",
+     "tr": "tismaʿīn",
+     "fusha": "تَسْمَعينَ"
+    },
+    {
+     "gulf": "يِسْمَع",
+     "tr": "yismaʿ",
+     "fusha": "يَسْمَعُ"
+    },
+    {
+     "gulf": "تِسْمَع",
+     "tr": "tismaʿ",
+     "fusha": "تَسْمَعُ"
+    },
+    {
+     "gulf": "نِسْمَع",
+     "tr": "nismaʿ",
+     "fusha": "نَسْمَعُ"
+    },
+    {
+     "gulf": "تِسْمَعون",
+     "tr": "tismaʿūn",
+     "fusha": "تَسْمَعونَ"
+    },
+    {
+     "gulf": "يِسْمَعون",
+     "tr": "yismaʿūn",
+     "fusha": "يَسْمَعونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "اِسْمَع",
+     "tr": "ismaʿ",
+     "fusha": "اِسْمَعْ"
+    },
+    {
+     "gulf": "اِسْمَعي",
+     "tr": "ismaʿi",
+     "fusha": "اِسْمَعي"
+    },
+    {
+     "gulf": "اِسْمَعوا",
+     "tr": "ismaʿu",
+     "fusha": "اِسْمَعوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "سِمِعْت الخَبَر؟",
+     "tr": "simiʿt el-khabar?",
+     "fusha": "هَلْ سَمِعْتَ الخَبَرَ؟",
+     "en": "Did you hear the news?"
+    },
+    {
+     "gulf": "أَحِبّ أَسْمَع قُرآن الصُّبْح",
+     "tr": "aḥibb asmaʿ qurʾān eṣ-ṣubḥ",
+     "fusha": "أُحِبُّ أَنْ أَسْتَمِعَ إِلى القُرْآنِ صَباحاً",
+     "en": "I like to listen to Quran in the morning."
+    }
+   ],
+   "notes": [
+    "سمع covers both “hear” and “listen to”. Fusha often uses اِسْتَمَعَ إِلى for “listen to” on purpose.",
+    "Same pattern as لعب: i in the past (simiʿ), a in the present (yismaʿ)."
+   ]
   }
  ]
 }

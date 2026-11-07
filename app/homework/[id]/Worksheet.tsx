@@ -10,6 +10,7 @@ type Status = "idle" | "saved" | "unsaved";
 export default function Worksheet({ hw }: { hw: Homework }) {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [name, setName] = useState("");
+  const [showDate, setShowDate] = useState(true);
   const [ready, setReady] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
   const [copied, setCopied] = useState(false);
@@ -20,6 +21,7 @@ export default function Worksheet({ hw }: { hw: Homework }) {
     const s = loadAnswers(hw.id);
     setAnswers(s.answers);
     setName(s.name);
+    setShowDate(s.showDate);
     setReady(true);
   }, [hw.id]);
 
@@ -27,16 +29,16 @@ export default function Worksheet({ hw }: { hw: Homework }) {
   useEffect(() => {
     if (!ready) return;
     clearTimeout(timer.current);
-    timer.current = setTimeout(() => setStatus(saveAnswers(hw.id, { answers, name }) ? "saved" : "unsaved"), 400);
+    timer.current = setTimeout(() => setStatus(saveAnswers(hw.id, { answers, name, showDate }) ? "saved" : "unsaved"), 400);
     return () => clearTimeout(timer.current);
-  }, [answers, name, ready, hw.id]);
+  }, [answers, name, showDate, ready, hw.id]);
 
   const set = (id: string, v: string) => setAnswers((a) => ({ ...a, [id]: v }));
   const filled = ids.filter((id) => answers[id]?.trim()).length;
   const today = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
 
   const asText = () => {
-    const out: string[] = [hw.ar, hw.title, ...(name ? [`Name: ${name}`] : []), today, ""];
+    const out: string[] = [hw.ar, hw.title, ...(name ? [`Name: ${name}`] : []), ...(showDate ? [today] : []), ""];
     out.push(hw.conj.ar);
     hw.conj.verbs.forEach((v, i) => {
       out.push(`${i + 1}) ${v.ar} (${v.en})`);
@@ -77,8 +79,17 @@ export default function Worksheet({ hw }: { hw: Homework }) {
             <span className="small muted">Your name (shown on the printout)</span>
             <input className="hw-input" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" autoComplete="name" />
           </label>
+          <label className="hw-check no-print">
+            <input type="checkbox" checked={showDate} onChange={(e) => setShowDate(e.target.checked)} />
+            <span className="small">Include today’s date when printing or copying</span>
+          </label>
           <div className="print-only">
-            <strong>Name:</strong> {name || "________________________"} &nbsp;·&nbsp; <strong>Date:</strong> {today}
+            <strong>Name:</strong> {name || "________________________"}
+            {showDate && (
+              <>
+                {" "}&nbsp;·&nbsp; <strong>Date:</strong> {today}
+              </>
+            )}
           </div>
         </div>
         <div className="hw-toolbar no-print">
