@@ -82,8 +82,8 @@ function verbCards(v: Verb): Card[] {
   const cards: Card[] = [
     { ...base, id: `${v.slug}|head`, ar: v.ar, en: v.en, fusha: v.past[3].fusha },
     { ...base, id: `${v.slug}|past-1`, ar: v.past[0].gulf, tr: v.past[0].tr || undefined, en: `I ${pastEn(v)} (past)`, fusha: v.past[0].fusha },
-    { ...base, id: `${v.slug}|pres-1`, ar: v.pres[0].gulf, tr: v.pres[0].tr || undefined, en: `I ${v.en.replace(/^to /, "")} (present)`, fusha: v.pres[0].fusha },
-    { ...base, id: `${v.slug}|cmd-m`, ar: v.cmd[0].gulf, tr: v.cmd[0].tr || undefined, en: `${cap(v.en.replace(/^to /, ""))}! (to a man)`, fusha: v.cmd[0].fusha },
+    { ...base, id: `${v.slug}|pres-1`, ar: v.pres[0].gulf, tr: v.pres[0].tr || undefined, en: `I ${PRES[v.slug] ?? v.en.replace(/^to /, "")} (present)`, fusha: v.pres[0].fusha },
+    { ...base, id: `${v.slug}|cmd-m`, ar: v.cmd[0].gulf, tr: v.cmd[0].tr || undefined, en: `${cap(CMD[v.slug] ?? v.en.replace(/^to /, ""))}! (to a man)`, fusha: v.cmd[0].fusha },
     ...v.examples.map((e, i) => ({ ...base, id: `${v.slug}|ex-${i}`, ar: e.gulf, tr: e.tr, en: e.en, fusha: e.fusha })),
   ];
   return cards;
@@ -93,8 +93,10 @@ const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const PAST: Record<string, string> = {
   go: "went", see: "saw", make: "made / did", read: "read", buy: "bought", write: "wrote",
   drink: "drank", eat: "ate", take: "took", say: "said", sleep: "slept", come: "came",
-  watch: "watched", play: "played", walk: "walked / left", call: "called", hear: "heard",
+  watch: "watched", play: "played", walk: "walked / left", call: "called", hear: "heard", be: "was",
 };
+const PRES: Record<string, string> = { be: "will be / may be" };
+const CMD: Record<string, string> = { be: "be" };
 const pastEn = (v: Verb) => PAST[v.slug] ?? v.en;
 
 /** Every practice card, de-duplicated by Arabic text within a source. */

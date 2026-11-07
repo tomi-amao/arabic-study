@@ -742,6 +742,147 @@
    ]
   },
   {
+   "slug": "be",
+   "ar": "كان / يِكون",
+   "en": "to be (was / were)",
+   "kind": "Hollow",
+   "core": true,
+   "past": [
+    {
+     "gulf": "كُنْت",
+     "tr": "kunt",
+     "fusha": "كُنْتُ"
+    },
+    {
+     "gulf": "كُنْت",
+     "tr": "kunt",
+     "fusha": "كُنْتَ"
+    },
+    {
+     "gulf": "كُنْتي",
+     "tr": "kunti",
+     "fusha": "كُنْتِ"
+    },
+    {
+     "gulf": "كان",
+     "tr": "kān",
+     "fusha": "كانَ"
+    },
+    {
+     "gulf": "كانَت",
+     "tr": "kānat",
+     "fusha": "كانَتْ"
+    },
+    {
+     "gulf": "كُنّا",
+     "tr": "kunna",
+     "fusha": "كُنّا"
+    },
+    {
+     "gulf": "كُنْتوا",
+     "tr": "kuntu",
+     "fusha": "كُنْتُمْ"
+    },
+    {
+     "gulf": "كانوا",
+     "tr": "kānu",
+     "fusha": "كانوا"
+    }
+   ],
+   "pres": [
+    {
+     "gulf": "أَكون",
+     "tr": "akūn",
+     "fusha": "أَكونُ"
+    },
+    {
+     "gulf": "تِكون",
+     "tr": "tkūn",
+     "fusha": "تَكونُ"
+    },
+    {
+     "gulf": "تِكونين",
+     "tr": "tkūnīn",
+     "fusha": "تَكونينَ"
+    },
+    {
+     "gulf": "يِكون",
+     "tr": "ykūn",
+     "fusha": "يَكونُ"
+    },
+    {
+     "gulf": "تِكون",
+     "tr": "tkūn",
+     "fusha": "تَكونُ"
+    },
+    {
+     "gulf": "نِكون",
+     "tr": "nkūn",
+     "fusha": "نَكونُ"
+    },
+    {
+     "gulf": "تِكونون",
+     "tr": "tkūnūn",
+     "fusha": "تَكونونَ"
+    },
+    {
+     "gulf": "يِكونون",
+     "tr": "ykūnūn",
+     "fusha": "يَكونونَ"
+    }
+   ],
+   "cmd": [
+    {
+     "gulf": "كون",
+     "tr": "kūn",
+     "fusha": "كُنْ"
+    },
+    {
+     "gulf": "كوني",
+     "tr": "kūni",
+     "fusha": "كوني"
+    },
+    {
+     "gulf": "كونوا",
+     "tr": "kūnu",
+     "fusha": "كونوا"
+    }
+   ],
+   "examples": [
+    {
+     "gulf": "أَنا كُنْت تَعْبان",
+     "tr": "ana kunt taʿbān",
+     "fusha": "كُنْتُ مُتْعَباً",
+     "en": "I was tired."
+    },
+    {
+     "gulf": "هُم كانوا يِلْعَبون",
+     "tr": "hum kānu yilʿabūn",
+     "fusha": "كانوا يَلْعَبونَ",
+     "en": "They were playing."
+    },
+    {
+     "gulf": "هِيَ كانَت في بَيْتنا الأُسْبوع اللي فات مَع أُمّها",
+     "tr": "hiya kānat fi baytna l-usbūʿ illi fāt maʿ ummha",
+     "fusha": "كانَتْ في بَيْتِنا الأُسْبوعَ الماضي مَعَ أُمِّها",
+     "en": "She was at our house last week with her mother."
+    },
+    {
+     "gulf": "هُم كانوا ثَلاثَة قَبْل أُسْبوعَيْن لَكِن الحين هُم عِشْرين",
+     "tr": "hum kānu thalātha gabl usbūʿēn lākin al-ḥīn hum ʿishrīn",
+     "fusha": "كانوا ثَلاثَةً قَبْلَ أُسْبوعَيْنِ، لَكِنَّهُم الآنَ عِشْرون",
+     "en": "Two weeks ago there were three of them, but now there are twenty."
+    }
+   ],
+   "notes": [
+    "كان is “was / were”. In the present you usually leave “am / is / are” out: أنا تعبان = I am tired, but أنا كنت تعبان = I was tired.",
+    "كان + a present verb means “was doing” or “used to do”: هم كانوا يلعبون = they were playing.",
+    "It is hollow like راح and شاف: a long ā for he, she and they (كان، كانت، كانوا) and a short u for I, you and we (كنت، كنّا، كنتوا).",
+    "Present and command: يكون is mostly heard after راح or لازم (راح يكون = it will be). These forms and the Fusha column were added for reference; your notes only had the past.",
+    "In Fusha the word after كان takes an -an ending (كنتُ متعباً); in Gulf it does not (كنت تعبان)."
+   ]
+  },
+  {
    "slug": "write",
    "ar": "كتب / يكتب",
    "en": "to write",

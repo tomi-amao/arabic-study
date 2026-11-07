@@ -6,7 +6,7 @@ import Ar from "./Ar";
 type Stop = { kind: "lesson" | "verb"; title: string; ar: string; href: string };
 export type UnitCard = { id: string; title: string; ar: string; blurb: string; tone: string; stops: Stop[]; cards: string[] };
 
-const CORE_VERBS = 5; // go, see, make, read, buy have their own sheets; the rest fold away
+const CORE_VERBS = 6; // go, see, make, read, buy, be come from lesson notes; the rest fold away
 
 export default function HomeView({ units, titles, total }: { units: UnitCard[]; titles: Record<string, string>; total: number }) {
   const p = useProgress();
